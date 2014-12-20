@@ -1,0 +1,75 @@
+﻿生成启动时间为 2014/11/17 11:57:18。
+     1>项目“C:\Users\Administrator\Desktop\gh0st\Server\MainDll\MainDll.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“.\Release\MainDll.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         F:\vs 2010\install\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MAINDLL_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\MainDll.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /FR".\Release\\" /Gd /TP /analyze- /errorReport:prompt common\KernelManager.cpp common\ScreenSpy.cpp
+         KernelManager.cpp
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(12): error C2011: “tagCURSORINFO”:“struct”类型重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(12176) : 参见“tagCURSORINFO”的声明
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(65): error C2079: “ci”使用未定义的 struct“tagCURSORINFO”
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(66): error C2228: “.cbSize”的左边必须有类/结构/联合
+                 类型是“int”
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(67): error C2664: “GetCursorInfo”: 不能将参数 1 从“int *”转换为“PCURSORINFO”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(67): error C2228: “.flags”的左边必须有类/结构/联合
+                 类型是“int”
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(72): error C2228: “.hCursor”的左边必须有类/结构/联合
+                 类型是“int”
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(75): error C2228: “.hCursor”的左边必须有类/结构/联合
+                 类型是“int”
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\VideoCodec.h(133): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\loop.h(85): warning C4995: “lstrcat”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\loop.h(85): warning C4995: “lstrcatA”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\loop.h(214): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\loop.h(243): warning C4995: “lstrcpy”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\loop.h(243): warning C4995: “lstrcpyA”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\loop.h(274): warning C4995: “wsprintf”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\loop.h(274): warning C4995: “wsprintfA”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\inject.h(140): warning C4995: “lstrcpy”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\inject.h(140): warning C4995: “lstrcpyA”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\inject.h(141): warning C4995: “lstrcpy”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\inject.h(141): warning C4995: “lstrcpyA”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\inject.h(142): warning C4995: “lstrcat”: 名称被标记为 #pragma deprecated
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\inject.h(142): warning C4995: “lstrcatA”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(22): warning C4995: “lstrcpy”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(22): warning C4995: “lstrcpyA”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(25): warning C4995: “lstrcpy”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(25): warning C4995: “lstrcpyA”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(27): warning C4995: “lstrcpy”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(27): warning C4995: “lstrcpyA”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>common\KernelManager.cpp(139): warning C4995: “lstrcat”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(139): warning C4995: “lstrcatA”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(140): warning C4995: “lstrcat”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(140): warning C4995: “lstrcatA”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(141): warning C4995: “lstrcat”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(141): warning C4995: “lstrcatA”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(144): warning C4995: “wsprintf”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(144): warning C4995: “wsprintfA”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(152): warning C4995: “lstrcat”: 名称被标记为 #pragma deprecated
+     1>common\KernelManager.cpp(152): warning C4995: “lstrcatA”: 名称被标记为 #pragma deprecated
+         ScreenSpy.cpp
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(12): error C2011: “tagCURSORINFO”:“struct”类型重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(12176) : 参见“tagCURSORINFO”的声明
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(65): error C2079: “ci”使用未定义的 struct“tagCURSORINFO”
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(66): error C2228: “.cbSize”的左边必须有类/结构/联合
+                 类型是“int”
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(67): error C2664: “GetCursorInfo”: 不能将参数 1 从“int *”转换为“PCURSORINFO”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(67): error C2228: “.flags”的左边必须有类/结构/联合
+                 类型是“int”
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(72): error C2228: “.hCursor”的左边必须有类/结构/联合
+                 类型是“int”
+     1>c:\users\administrator\desktop\gh0st\server\maindll\common\..\..\..\common\CursorInfo.h(75): error C2228: “.hCursor”的左边必须有类/结构/联合
+                 类型是“int”
+     1>common\ScreenSpy.cpp(361): warning C4018: “>”: 有符号/无符号不匹配
+     1>common\ScreenSpy.cpp(382): warning C4018: “<”: 有符号/无符号不匹配
+     1>common\ScreenSpy.cpp(401): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+     1>已完成生成项目“C:\Users\Administrator\Desktop\gh0st\Server\MainDll\MainDll.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.00
